@@ -1,1 +1,1 @@
-tailwind css.
+tailwin css.

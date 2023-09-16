@@ -1,0 +1,40 @@
+div{
+    border: 5px solid black;
+}
+
+img{
+    margin: 10px;
+
+}
+.img1{
+    /* position: relative; */
+    /* if we want to move a image(or anything) we have to set its position relative otherwise the effect wont work..... */
+     position: absolute;
+     top: 100px;
+
+}
+.container{
+    position: relative;
+    height: 8000px;
+}
+.img4{
+    position:fixed;
+    /* it will fixed the image */
+
+}
+.img3{
+    position:sticky;
+    /* sticky works only in his parent container */
+
+    top:100px;
+
+    /* this will also fixed the image but it will do with some positon like top and it will only till the end of the container(of that only) etc... */
+
+}
+.box{
+    background-color: red;
+    height: 5000px;
+}
+
+
+

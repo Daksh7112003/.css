@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* .box{
+  border: 2px solid red;
+  width: 50%;
+  width: 25%;
+
+
+} */
+
+/* .parent{
+    background-color:brown;
+    border: 5px red solid;
+    width: 20%;
+    
+}
+.child{
+    border: 2px green solid;
+   background-color: blue;
+    width: 30%;
+} */
+
+
+/* .container{
+    background-color: pink;
+    border: 2px solid rgb(50, 235, 235);
+    height: 100vh;
+    width: 50vw;
+
+/* these are also units 
+
+} */
+
+
+
+
+
+/* em rem */
+
+/* //lets take the example for the font size..
+em = font size(parent)*numerical value of (child) */
+.nxtpara{
+    font-size: 1px;
+}
+.firstpara{
+    font-size: 5rem;
+    background-color: blue;
+
+}
+
+
+

@@ -1,0 +1,9 @@
+#img1{
+    float: right;
+    height: 250px;
+}
+#img2{
+    float: right;
+    height: 250px;
+    clear: right;
+}

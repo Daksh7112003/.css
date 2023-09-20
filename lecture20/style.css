@@ -1,0 +1,118 @@
+.container{
+   background-color: beige; 
+   border: 2px solid black;
+   display: flex;
+   /* //properties of flex; */
+   flex-direction: row;
+
+   flex-direction: row-reverse;
+
+   flex-direction: column;
+
+   flex-direction: row;  
+
+ 
+   /* flex-wrap: wrap; */
+
+   height: 690px;
+
+
+
+    /* justify-content: end; */
+
+/* 
+  justify-content: center;
+
+  justify-content: space-between;
+
+  justify-content: space-around;
+
+  justify-content: space-evenly; */
+
+
+/* align-items: center;
+align-items: start;
+align-items: end;
+align-items: stretch;    is height is constant; */
+  
+
+
+/* how to center bla bla... */
+/* 
+justify-content: center;
+align-items: center; */
+
+
+
+
+
+flex-direction: row;
+height: 600px;
+justify-content: start;
+align-items: start;
+align-content: start; 
+align-content: start;
+
+
+/* flex-wrap: wrap; */
+
+
+}
+
+
+
+
+.box{
+  /* height: 200px;
+    width: 300px; */
+    border: 3px solid skyblue;
+    margin: 2px;
+    padding: 2px;
+  display: flex;
+ 
+}
+
+
+
+
+
+#box1{
+  background-color: aqua; 
+
+  /* flex-shrink: 4; */
+   
+
+  align-self: center;
+  align-self: end;
+}
+
+#box2{
+background-color: blue;
+}
+
+#box3{
+background-color: orange;
+}
+
+
+#box4{
+background-color: brown;
+/* flex-shrink: 4;  */
+
+/* this is used to set the lenghts of the box */
+/* flex-basis: 400px; */
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

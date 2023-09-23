@@ -1,0 +1,77 @@
+
+.box{
+    background-color: aqua;
+    height: 500px;
+    width:400px;
+    border: solid  black 2px;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .box{
+        background-color: green;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

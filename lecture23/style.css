@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    border: 2px solid brown;
+    background-color: gold;
+height: 900px;
+
+}
+.box{
+    width: 350px;
+  height: 80px;
+  background-color: blueviolet;
+  border: 3px yellow solid;
+  margin: 3px;
+  border-radius: 10px;
+
+  position: relative;
+
+
+  /* animations */
+
+
+
+  /* animation-name: rightMovement;
+  animation-duration: 5s;
+animation-iteration-count: 1;
+
+
+animation-delay: 2s;
+animation-timing-function:cubic-bezier(0.215, 0.610, 0.355, 1);
+animation-direction:alternate;
+
+
+animation-fill-mode: backwards; */
+
+
+/* lets talk about shortcut ....... of the animation.... */
+
+/* @keyframe duration | eaing-function|delay| iteration-count|direction|fill-mode|play-state|name */
+
+
+animation: 5s linear 1s infinite alternate none running rightMovement;
+
+
+
+}
+
+@keyframes rightMovement {
+    from{
+        top:0;
+        left:0;
+
+    }
+    to{
+        top:0;
+        left: 1000px;
+
+    }
+
+
+}
+.box2{
+    border: 2px solid black;
+background-color: chartreuse;
+width: 350px;
+height: 80px;
+margin: 3px;
+border-radius: 3px;
+position: relative;
+animation: 5s ease-in 1s infinite alternate none running leftMovement;
+}
+
+
+
+@keyframes leftMovement {
+    from{
+        top:600px;
+        left: 1000px;
+
+    }
+    to{
+        top:600px;
+       left: 0px;
+
+    }
+
+
+    
+}
+
+
+.circle{
+    background-color: blue;
+    border: 2px black solid ;
+    border-radius: 50px;
+    width: 50px;
+
+    height: 50px;
+    position: relative; 
+
+    /* relative property is used for the left and right movements */
+    animation: 10s ease-in-out 0s  infinite alternate none running circleMovement;
+    top: 1%; /* Add an initial value for top */
+    left: 5%; /* Add an initial value for left */
+}
+
+p{
+    font-size: small;
+ 
+ 
+
+
+}
+@keyframes circleMovement {
+    0%{
+        top:1%;
+        left:5%;
+
+    }
+    30%{
+        top:5%;
+        left:90%;
+
+    }
+    60%{
+        top:65%;
+        left:90%
+    }
+    100%{
+        top:95%;
+        left:90%
+    }
+}
+

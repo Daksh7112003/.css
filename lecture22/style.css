@@ -1,0 +1,57 @@
+img{
+    height: 100px;
+    width: 300px;
+}
+.container{
+    background-color: blueviolet;
+    border: solid 2px black;
+
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+border: 2px solid black;
+margin: 3px;
+padding: 3px;
+overflow: auto;
+/* box-shadow: -10px -15px brown;(NOTE) */
+box-shadow: 10px 15px brown;
+
+
+         /* width hgt blur ;; */
+
+box-shadow: 10px 15px 5px brown;
+
+
+          /* width hgt blur shadow spreading ;; */
+box-shadow: 10px 15px 5px 60px  brown;
+
+
+box-shadow: inset 10px 15px brown;
+
+
+
+}
+
+
+
+h1{
+    font-size:medium;
+}
+
+
+/* text ::shadow */
+
+/* by default color of the shadow is black */
+#head1{
+ text-shadow: 1px 1px 1px green;
+ 
+}
+
+

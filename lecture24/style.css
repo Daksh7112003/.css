@@ -1,0 +1,26 @@
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+
+    transition-property: all;
+    /* transition-duration: 4s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out; */
+    transition-timing-function: linear;
+    transition: width 2s , height 4s ;
+
+ 
+
+
+}
+
+.box:hover{
+    width: 1900px;
+    height: 900px;
+    background-color: blue;
+}

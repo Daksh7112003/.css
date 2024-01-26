@@ -1,0 +1,48 @@
+/* element selector */
+
+p{
+    color: green;
+    font-size: larger;
+}
+
+
+/* class selector */
+
+.green{
+    color:aqua;
+    font-size: 500%;
+
+}
+.red{
+    color: blue;
+}
+
+
+.hello{
+    color: aquamarine;
+    font-size: medium;
+}
+.hii{
+    color:blueviolet
+}
+
+
+
+/* Id selector ..... */
+#thala{
+    color:royalblue
+}
+
+
+/* pseudocode selector.....*/
+
+button :hover{
+    color:black
+}
+
+a:hover{
+    color: black;
+}
+
+
+

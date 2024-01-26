@@ -1,0 +1,7 @@
+.min{
+    border: 3px solid black;
+    height: 100px;/*text is overflowing soo..*/
+    overflow: scroll;
+    width: 300px;
+
+}

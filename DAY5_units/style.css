@@ -5,3 +5,13 @@
     width: 300px;
 
 }
+
+.boxer{
+    height: 50px;
+    border: 3px green solid;
+    overflow: visible;
+
+    overflow: hidden;
+    overflow: auto;
+    
+}
